@@ -20,6 +20,12 @@ export function activate(context: vscode.ExtensionContext) {
 		dark: {
 			// this color will be used in dark color themes
 			borderColor: 'lightblue'
+		},
+		before: {
+			contentText: "->"
+		},
+		after: {
+			contentText: "<-"
 		}
 	});
 
@@ -81,4 +87,3 @@ export function activate(context: vscode.ExtensionContext) {
 	}, null, context.subscriptions);
 
 }
-
