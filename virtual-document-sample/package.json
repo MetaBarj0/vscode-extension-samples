@@ -12,7 +12,7 @@
 		"url": "https://github.com/Microsoft/vscode-extension-samples/issues"
 	},
 	"engines": {
-		"vscode": "^1.32.0"
+		"vscode": "^1.52.0"
 	},
 	"categories": [
 		"Other"
@@ -55,12 +55,12 @@
 		"watch": "tsc -watch -p ./"
 	},
 	"dependencies": {
-		"cowsay": "1.3.1"
+		"cowsay": "^1.1.1"
 	},
 	"devDependencies": {
+		"@types/vscode": "^1.52.0",
 		"@typescript-eslint/eslint-plugin": "^3.0.2",
 		"@typescript-eslint/parser": "^3.0.2",
-		"@types/vscode": "^1.32.0",
 		"eslint": "^7.1.0",
 		"typescript": "^4.0.2"
 	}
